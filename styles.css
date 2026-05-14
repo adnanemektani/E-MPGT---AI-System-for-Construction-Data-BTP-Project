@@ -85,8 +85,7 @@ body.light-mode .fixed-input { background: #f8fafc; border-top: 1px solid #e2e8f
 }
 .welcome h2 { font-size: 1.8rem; margin-bottom: 0.5rem; color: #94a3b8; }
 .welcome p  { font-size: 1rem; }
-/* Force input l ta7t */
-.stTextInput {
+.fixed-input .stTextInput {
     position: fixed !important;
     bottom: 20px !important;
     left: 320px !important;
