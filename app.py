@@ -199,10 +199,10 @@ def main():
 
         st.markdown("---")
         st.caption("CONFIG. PROJET")
-        project_name = st.text_input("Nom du Projet", value="Chantier_A")
+        project_name = st.sidebar.text_input("Nom du Projet", value="Chantier_A")
         namespace = project_name.lower().replace(" ", "_")
-        lot_tech = st.selectbox("Lot Technique", ["Gros Oeuvre", "Electricite", "Plomberie", "VRD", "Autre"])
-        uploaded_files = st.file_uploader("Upload (PDF, Docx, Xlsx, Images)", accept_multiple_files=True)
+        lot_tech = st.sidebar.selectbox("Lot Technique", ["Gros Oeuvre", "Electricite", "Plomberie", "VRD", "Autre"])
+        uploaded_files = st.sidebar.file_uploader("Upload (PDF, Docx, Xlsx, Images)", accept_multiple_files=True)
 
         if st.button("Process Upload", use_container_width=True):
             with st.spinner("Processing..."):
