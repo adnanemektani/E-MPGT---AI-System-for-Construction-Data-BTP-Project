@@ -11,3 +11,6 @@ google-generativeai
 openpyxl
 python-docx
 Pillow
+langchain-pinecone==0.0.1
+langchain-classic
+
