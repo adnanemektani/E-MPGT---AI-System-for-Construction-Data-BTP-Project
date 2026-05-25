@@ -1,9 +1,9 @@
 streamlit
-langchain
-langchain-community
+langchain==0.3.0
+langchain-community==0.3.0
 langchain-google-genai
 langchain-groq
-pinecone
+pinecone-client
 sentence-transformers
 pymupdf
 python-dotenv
@@ -11,6 +11,4 @@ google-generativeai
 openpyxl
 python-docx
 Pillow
-langchain-pinecone==0.0.1
-langchain-classic
-
+langchain-pinecone==0.2.13
